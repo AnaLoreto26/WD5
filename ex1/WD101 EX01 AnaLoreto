@@ -1,0 +1,82 @@
+<html  lang="pt">
+<head>
+    <title>Quim Barreiros</title>
+    <meta name="author" content="Fan nº1" />
+<meta
+  name="description"
+  content="A maior fanpage do Quim Barreiros. Encontra aqui as mais recentes novidades" />
+</head>
+
+
+<body>
+   
+ <header> 
+    <h1> <strong> Quim Barreiros </strong> </h1>
+    <h2> Num palco ou na garagem da vizinha </h2>
+    <br>
+    <br>
+   
+    <nav> 
+     <time datetime="2023-09-20">20 <abbr title="setembro">SET</abbr> 2023</time>
+     <a href="mailto: isaaloreto26@gmail.com" target="_blank">Contactos</a>
+     <hr />
+    </nav>  
+ </header>
+ 
+ <aside> 
+    <a href="https://twitter.com/oquimbarreiros"> Twiter do Quim</a>
+   <a href="https://www.quimbarreiros.pt/"> Página oficial do Quim</a>
+   <a href="https://www.quimbarreiros.pt/collections"> Merch do Quim</a>
+   <hr />
+</aside>
+
+ <main>
+    <br>
+    <br>
+    <article> <h3> Sobre o Rei</h3>
+    <p> A música entrou muito cedo na vida de Quim Barreiros. A mãe não ligava muito, mas o pai tocava acordeão num grupo de baile – <br /> o Conjunto Alegria – e em vários ranchos folclóricos. O jovem Joaquim apaixonou-se pela sonoridade dos mesmos instrumentos  <br/>que o pai tocava e quis aprender a fazer o mesmo. Mas não foi com ele que aprendeu. Quim Barreiros diz <br />que “o pai ensinava à maneira antiga, a lambada” e então foi estudar os princípios do acordeão, com apenas oito anos,<br /> junto do sargento-músico, o Sr. Lomba, que ocupava os dias da reforma a ensinar os mais novos. E, curiosamente, não foi <br /> acordeão, mas sim bateria, o primeiro instrumento que tocou em público. Anos depois, na adolescência, <br /> Barreiros começou então a tocar acordeão, já ao lado do pai</p>
+    </article>
+    <hr />
+
+    <article> <h3> Revelações da vida amorosa</h3>
+
+        <p>Quem foi o seu primeiro amor?</p>
+        <blockquote cite=" https://observador.pt/especiais/quim-barreiros-vi-gente-famosa-que-se-andou-a-arrastar-em-palco-vou-saber-parar/"> <p>O meu primeiro namoro foi a Ana, uma mocinha aqui de Viana do Castelo. <br />Teria os meus 18 anos, talvez.</p></blockquote>
+
+        <p>O jovem Quim foi muito namoradeiro?</p>
+        <blockquote> <p> Opá, eu era namoradeiro, mas as moças não se davam muito bem comigo,<br /> mandavam-me embora. Não era eu que tinha de as “despedir”, eram elas <br /> que me “despediam” a mim</p> </blockquote>
+       
+        <p>E hoje, é mulherengo?</p>
+        <blockquote> <p> <strong> Sou.</strong> </p> </blockquote>
+        <hr />
+    </article>
+
+    <article> <h3> Recomendações musicais</h3>
+        <p> <ins>Quando estás apaixonado</ins></p>
+        <ul><li> <a href="https://www.youtube.com/watch?v=5Abg-0l6CxU" target="_blank"> Surfar é mar é paixão</a></li>
+            <li> <a href="https://www.youtube.com/watch?v=5uqQ8tyuMTo" target="_blank"> O Sorveteiro (Chupa Teresa)</a></li>
+            <li> <a href="https://www.quimbarreiros.pt/collections" target="_blank"> Merch do Quim</a></li> </ul>
+
+        <p> <ins>Quando estás chateado com a vida</ins></p>
+        <ul><li> <a href="https://www.youtube.com/watch?v=bad8pWaU4LQ" target="_blank"> É Por Isso Que Eu Bebo</a></li>
+            <li> <a href="https://www.youtube.com/watch?v=VY3H0-kFr5E" target="_blank"> Estou farto</a></li> </ul>
+
+        <p> <ins>Quando é o mês do pride</ins></p>
+        <ul><li> <a href="https://www.youtube.com/watch?v=stJdDrRQ2Z4"target="_blank"> Casamento Gay</a></li></ul>
+        <hr />
+    </article>
+   
+ </main>
+
+
+
+ <footer>
+   <p> <q>Eu gosto de mamar nos peitos da cabritinha</q></p>
+   <h5><a href="mailto: isaaloreto26@gmail.com">Entra em contacto connosco</a> </h5>
+   <h5><del>sem vergonhas</del></h5>
+   <h5> <p> <em>se o Quim não tem, tu também não</em></p> </h5>
+ </footer>
+
+</body>
+    
+</html>

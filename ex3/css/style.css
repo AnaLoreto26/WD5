@@ -1,0 +1,281 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin 0;
+  }  
+   /* isto tira as predefinicoes*/
+
+@font-face {
+    font-family: Franie;
+    src: url(../fonts/Franie/FranieVariableTest-Bold-BF64c31f3d8798d.otf);
+}
+
+@font-face {
+  font-family: FranieR;
+  src: url(../fonts/Franie/FranieVariableTest-Regular-BF64c31f3d73b64.otf);
+}
+@font-face {
+    font-family: PP;
+    src: url(../fonts/PP/PPNeueMontreal-Medium.otf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-size: 100%;
+  background-color: white;
+  font-family: PP;
+  src: url(../fonts/PP/PPNeueMontreal-Medium.otf);
+}
+
+/*---------------------------------------------header-------------------------------------------------*/
+.fundo{
+  position: absolute;
+  display: block;
+  width: 100%;
+  min-width: 100%;
+  height: 280px;
+ object-fit: cover;
+ z-index: -1;
+ margin: ;
+}
+
+.logo{
+  width: 290px;
+  height: auto;
+padding-top:15px ;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.grid-container {
+  margin-top: 40px;
+  height: 70px;
+  width: 100%;
+  display: grid;
+  gap: 0px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.grid-item {
+  background-color: #EF982A ; 
+  height: 70px;
+  text-align: center;
+  align-self: center;
+  padding: 23px;
+}
+
+.esquerda{
+  padding-left: 70px;
+}
+
+.direita{
+  padding-right: 70px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.grid-item:hover{
+  font-size: 17.5px;
+  padding:21.5px;
+}
+
+.esquerda:hover{
+  padding-left: 65px;
+}
+
+.direita:hover{
+  padding-right: 65px;
+}
+/*---------------------------------------------sobre o rei-------------------------------------------------*/
+#sobre{
+  margin-top: 50px;
+  margin-left: 0%;
+  padding: 65px;
+}
+
+h1{
+  font-family: Franie;
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 0;
+}
+.red{
+color: #971E23;
+}
+
+.conteudo{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.box{
+  width: 40%;
+  min-width: 500px;
+}
+
+p{
+  line-height: 1.3;
+}
+figure{
+  padding: 0%;
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+img{
+width:90vh;
+}
+
+figcaption{
+font-size: 15px;
+text-align: center;
+margin-top: 10px;
+}
+
+table{
+  margin-top: 70px;
+}
+td { 
+  padding-right: 30px;
+}
+/*---------------------------------------------meme da semana-------------------------------------------------*/
+#meme{
+  width: 100%;
+  background-color: #971E23;
+}
+
+.white{
+  color: whitesmoke;
+}
+
+.conteudo2{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-left: 0%;
+  padding: 65px;
+  
+}
+
+video{
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+ padding: 25px;
+
+}
+/*---------------------------------------------gossip-------------------------------------------------*/
+
+#gossip{
+  margin-top: px;
+  margin-left: 0%;
+  padding: 65px;
+}
+
+.bb{
+  margin-bottom: 10px;
+} /* variação do conteudo - mais pra baixo*/
+
+.nota{
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+
+/*---------------------------------------------sex education-------------------------------------------------*/
+#sex-education{
+  width: 100%;
+  background-color: #971E23;
+}
+
+
+iframe{
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+ padding: 25px;
+}
+
+/*---------------------------------------------desafio-------------------------------------------------*/
+
+#desafio{
+  padding: 65px;
+  margin-bottom: 0;
+  padding-bottom: 0; /* tentativa de unir a imagem ao footer mas há um espaço entre eles q não consigo retirar*/
+}
+
+.cc{ 
+  flex-direction: column;
+  margin-bottom: 0;
+  padding-bottom: 0;
+} /* variação da box -> column - elementos para baixo*/
+
+audio{
+  margin-top: 40px;
+  margin-bottom: 130px;
+}
+
+.botao{
+  background-color:  #EF982A ;
+  border-radius: 23px;
+  width: 120px;
+  padding: 15px;
+  text-align: center;
+}
+.botao:hover {
+  background-color: #DD882C;
+}
+
+.botao::before {
+  content: url('../imagens/setaa.png');
+  margin-right: 7px;
+} /* icon*/
+
+.imagemerch{
+  display: flex;
+align-items: last baseline;
+
+}
+/*---------------------------------------------footer-------------------------------------------------*/
+footer{
+  background-color: black;
+  width: 100%;
+  height: 200px;
+
+}
+
+h2{
+  font-size: 18px;
+  font-weight: 200;
+  font-family: FranieR;
+  color: whitesmoke;
+  padding: 6.5%;
+  text-align: center;
+  text-shadow:
+      1px 1px 1px #EF982A ,
+      2px 2px 1px #EF982A ;
+
+}
+
+
+/*diferenças do ex2 para o ex3
+
+-melhor organização semantica
+-atribuiçáo de classes para editar elementos semelhantes
+-entrelinhas
+-icon atraves do pseudo-seletor ::before
+- estilização das hiperligações com :hover
+-text-shadow no footer
+-nav passou a ter grid ( quando o tamanho da letra aumenta as restantes palavras deixam de mexer)
+*/
